@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit;
 public class locators2 {
     public static void main(String[] args) throws InterruptedException {
         String name="rahul";
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Kushan Ranasinghe\\Desktop\\Chrome\\chromedriver_win32\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Kushan Ranasinghe\\Desktop\\Chrome\\chromedriver_win32git \\chromedriver.exe");
 
         WebDriver driver = new ChromeDriver();
 
