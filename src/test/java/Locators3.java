@@ -18,6 +18,7 @@ public class Locators3 {
         System.out.println(driver.findElement(By.xpath("//header/div/button[1]/following-sibling::button[1]")).getText());
 
         System.out.println(driver.findElement(By.xpath("//header/div/button[1]/parent::div/button[2]")).getText());
+       // System.out.println(driver.findElement(By.xpath("header/div/button[1]/parent::div/parent::header")));
 
      //   driver.manage().window().maximize();
 
