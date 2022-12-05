@@ -10,6 +10,7 @@ public class UpdateDropdown {
         WebDriver driver = new ChromeDriver();
         driver.get("https://rahulshettyacademy.com/dropdownsPractise/");
         driver.findElement(By.id("divpaxinfo")).click();
+        System.out.println(driver.findElement(By.id("divpaxinfo")).getText());
         sleep(2000);
        int i=1;
 
