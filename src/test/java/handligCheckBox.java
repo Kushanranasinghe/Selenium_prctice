@@ -17,5 +17,6 @@ public class handligCheckBox {
         //cout all the checkbox
        System.out.println(driver.findElements(By.cssSelector("input[type='checkbox']")).size());
 
+
     }
 }
